@@ -16,7 +16,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import Dragable from './Dragable'
+import Dragable from './dragable/Dragable'
 import Home from './Home'
 import Button from '@material-ui/core/Button'
 import Link from '@material-ui/core/Link';
