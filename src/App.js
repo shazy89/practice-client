@@ -1,12 +1,12 @@
 import React from 'react';
-import Home from './component/Home'
-
-
-
+import Home from './component/Index'
+import { BrowserRouter } from 'react-router-dom'
 function App() {
   return (
     <div >
-       <Home />
+       <BrowserRouter>
+          <Home />
+       </BrowserRouter> 
     </div>
   );
 }

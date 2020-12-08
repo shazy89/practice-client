@@ -1,11 +1,11 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
 
-const Home = () => {
+const Dragable = () => {
     return (
         <div>
-            <h1>Hello HOME</h1>
+            <h1>Hello world</h1>
         </div>
     )
 }
-export default Home;
+export default Dragable;

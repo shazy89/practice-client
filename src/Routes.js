@@ -1,10 +1,13 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
+import Home from './component/Index'
 
 const Routes = () => {
     return (
         <div>
-            <h1>Hello world</h1>
+            <Switch >
+               <Route  exact path="/" render = {props => (<Home {...props}  />)} />
+            </Switch>
         </div>
     )
 }
